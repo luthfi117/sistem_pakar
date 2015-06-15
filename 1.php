@@ -13,6 +13,17 @@
               }
               ?>
 
+              <?php
+              $query = mysql_query("SELECT * FROM gejala where id = 3");
+              while($fetch = mysql_fetch_array($query)){
+              echo"<p class='wow slideInUp'>";
+              echo"Apakah anda merasakan ";
+              echo $fetch['gejala'];
+              echo "? Masukan angka yang menggambarkan tingkat sakit yang di derita";
+              echo"</p>";
+              }
+              ?>
+
 
 
   						<form class="form-horizontal" role="form">
