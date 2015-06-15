@@ -12,6 +12,7 @@
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
         <script src="js/gelembung.js"></script>
         <script src="js/wow.js"></script>
         <script type="text/javascript">

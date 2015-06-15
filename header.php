@@ -16,6 +16,7 @@ require "connection.php";
         <link rel="shortcut icon" href="../favicon.ico">
         <link href="css/style.css" rel="stylesheet">
         <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-select.css">
         <!-- Bootstrap -->
     	<link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
