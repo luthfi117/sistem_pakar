@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'HelveticaNeueLTProLt';
+    src: url('../fonts/HelveticaNeueLTProLt.eot');
+    src: url('../fonts/HelveticaNeueLTProLt.eot') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueLTProLt.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueLTProLt.woff') format('woff'),
+         url('../fonts/HelveticaNeueLTProLt.ttf') format('truetype'),
+         url('../fonts/HelveticaNeueLTProLt.svg#HelveticaNeueLTProLt') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTProMd';
+    src: url('../fonts/HelveticaNeueLTProMd.eot');
+    src: url('../fonts/HelveticaNeueLTProMd.eot') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueLTProMd.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueLTProMd.woff') format('woff'),
+         url('../fonts/HelveticaNeueLTProMd.ttf') format('truetype'),
+         url('../fonts/HelveticaNeueLTProMd.svg#HelveticaNeueLTProMd') format('svg');
+}
+
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+
+.gelembung .large-header {
+	background-image: url('../img/bg2.jpg');
+	background-position: center bottom;
+}
+
+
+
+.main{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	font-family: 'HelveticaNeueLTProLt';
+	top: 40%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.input-group{
+	width: 400px;
+	margin: 1.5em auto;
+}
+
+.form-control{
+	width: 10%;
+}
+
+.input-group input{
+	height: 45px;
+}
+
+.input-group input:focus {
+	outline-color: transparent;
+	outline-style: none;
+}
+
+.main p{
+	line-height: 30px;
+	font-size: 16px;
+	padding-top: 1.5em;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.element {
+  .center-block();
+}
+
+.container-header{
+	margin: auto;
+	width: 59%;
+	padding-top: 6em;
+}
+
+.check-button{
+	background: url('../img/check.png') no-repeat;	
+	height: 61px;
+	width: 61px;
+	border:none;
+	margin-right: 2em;
+}
+
