@@ -1,11 +1,38 @@
 large();
+var siji;
+var loro;
+var telu;
+var papat;
+var limo;
+var enam;
+var tujuh;
+var delapan;
+var sembilan;
+var sepuluh;
+
 $(document).ready(function() {
 	$('.dua').hide()
-	$('.first').click(function() {
+	$('.tiga').hide()
+
+	$('.submit_satu').click(function() {
 		$('.satu').hide()
 		new WOW().init()
 		$('.dua').show()
 	})
+
+	$('.submit_dua').click(function() {
+		$('.dua').hide()
+		new WOW().init()
+		$('.tiga').show()
+	})
+
+
+	$('.submit_tiga').click(function() {
+		$('.dua').hide()
+		new WOW().init()
+		$('.tiga').show()
+	})
+
 })
 
 function large() {
