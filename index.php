@@ -4,10 +4,10 @@
   						<p class="wow slideInUp">
   						Momentum stupefy portus sectumsempra lumos. Protego rictusempra reducio protego totalus legilimens mobilicorpus. Rictusempra imperturbable aparecium kedavra engorgio. Alohomora leviosa mortis point legilimens quietus babbling stupefy portus?
   						</p>
-  						<form>
+  						<form action="process_user.php" method="post">
   						<div class="input-group  wow zoomIn" data-wow-delay="1s">
 						  <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-heart"></i></span>
-						  <input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+						  <input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1" name="nama" id="nama">
 						 
 						</div>
 						<div class="col-md-4 pull-right">

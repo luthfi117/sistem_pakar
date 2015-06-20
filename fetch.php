@@ -9,11 +9,11 @@ while($row = mysql_fetch_array($query)) {
 	for($idx; $idx < $jmlh; $idx++);
 		array_push($data, $row['gejala']);
 }
-
+/*
 for($idx = 0; $idx < $jmlh; $idx++) {
 	echo $data[$idx];
 	echo "<br>";
-}
+}*/
 
 $fh = fopen("data.json", 'a') or die("Error opening output file");
 fwrite($fh, "var data = '");
