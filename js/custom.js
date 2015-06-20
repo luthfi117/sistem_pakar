@@ -1,14 +1,4 @@
 large();
-var siji;
-var loro;
-var telu;
-var papat;
-var limo;
-var enem;
-var pitu;
-var wolu;
-var songo;
-var sepuluh;
 
 $(document).ready(function() {
 	$('.dua').hide()
@@ -36,52 +26,48 @@ $(document).ready(function() {
 
 
 	$('.submit_tiga').click(function() {
-		$('.dua').hide()
-		new WOW().init()
-		$('.tiga').show()
-	})
-
-	$('.submit_empat').click(function() {
 		$('.tiga').hide()
 		new WOW().init()
 		$('.empat').show()
 	})
 
-	$('.submit_lima').click(function() {
+	$('.submit_empat').click(function() {
 		$('.empat').hide()
 		new WOW().init()
 		$('.lima').show()
 	})
 
-	$('.submit_enam').click(function() {
+	$('.submit_lima').click(function() {
 		$('.lima').hide()
 		new WOW().init()
 		$('.enam').show()
 	})
 
-	$('.submit_tujuh').click(function() {
+	$('.submit_enam').click(function() {
 		$('.enam').hide()
 		new WOW().init()
 		$('.tujuh').show()
 	})
 
-	$('.submit_delapan').click(function() {
+	$('.submit_tujuh').click(function() {
 		$('.tujuh').hide()
 		new WOW().init()
 		$('.delapan').show()
 	})
 
-	$('.submit_sembilan').click(function() {
+	$('.submit_delapan').click(function() {
 		$('.delapan').hide()
 		new WOW().init()
 		$('.sembilan').show()
 	})
 
-	$('.submit_sepuluh').click(function() {
+	$('.submit_sembilan').click(function() {
 		$('.sembilan').hide()
 		new WOW().init()
 		$('.sepuluh').show()
 	})
+
+	
 })
 
 function large() {
