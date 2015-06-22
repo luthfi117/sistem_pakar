@@ -1,6 +1,7 @@
 large();
 
 $(document).ready(function() {
+	$('.satu').hide()
 	$('.dua').hide()
 	$('.tiga').hide()
 	$('.empat').hide()
@@ -11,6 +12,11 @@ $(document).ready(function() {
 	$('.sembilan').hide()
 	$('.sepuluh').hide()
 
+	$('.submit_awal').click(function() {
+		$('.awal').hide()
+		new WOW().init()
+		$('.satu').show()
+	})
 
 	$('.submit_satu').click(function() {
 		$('.satu').hide()
