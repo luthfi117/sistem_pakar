@@ -3,7 +3,21 @@
                 include "fetch.php";
               ?>
 
+              <form class="form-horizontal" role="form" method="post" action="process_gejala.php" name="gejala_satu">
+              <div class="awal">
+              <p class="wow slideInUp">
+              Momentum stupefy portus sectumsempra lumos. Protego rictusempra reducio protego totalus legilimens mobilicorpus. Rictusempra imperturbable aparecium kedavra engorgio. Alohomora leviosa mortis point legilimens quietus babbling stupefy portus?
+              </p>
+              <div class="input-group  wow zoomIn" data-wow-delay="1s">
+              <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-heart"></i></span>
+              <input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1" name="nama" id="nama">
+              <input type="text" class="form-control" placeholder="Lokasi" aria-describedby="basic-addon1" name="lokasi" id="lokasi">
 
+              </div>
+              <div class="col-md-4 pull-right">
+              <input type="button" class="check-button wow rollIn submit_awal" value="" data-wow-delay="2s" >
+              </div>
+              </div>
 
               <div class="satu">
               <p class="wow slideInUp">
@@ -11,7 +25,6 @@
               </p>
 
 
-              <form class="form-horizontal" role="form" method="post" action="process_gejala.php" name="gejala_satu">
               <div class="form-group">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-10">
@@ -96,7 +109,7 @@
             </div>
 
             <!-- EMPAT -->
-            <div class="empat">
+           <div class="empat">
               <p class="wow slideInUp">
               Apakah anda merasakan dehidrasi? Silahkan klik option dibawah ini sesuai dengan yang Anda rasakan?
               </p>
@@ -124,7 +137,7 @@
             <div class="col-md-4 pull-right">
             </div>
             </div>
-
+ 
 
             <!-- LIMA -->
             <div class="lima">
@@ -157,7 +170,7 @@
             </div>
 
             <!-- ENAM -->
-            <div class="enam">
+              <div class="enam">
               <p class="wow slideInUp">
               Apakah anda merasa flu dalam waktu bersamaan?Silahkan klik option dibawah ini sesuai dengan yang Anda rasakan?
               </p>
@@ -187,7 +200,7 @@
             </div>
 
             <!--TUJUH -->
-            <div class="tujuh">
+              <div class="tujuh">
               <p class="wow slideInUp">
               Apakah anda merasa kehilangan nafsu makan di sertai dengan mudah lelah? Silahkan klik option dibawah ini sesuai dengan yang Anda rasakan?
               </p>
@@ -217,7 +230,7 @@
             </div>
 
             <!--DELAPAN-->
-            <div class="delapan">
+              <div class="delapan">
               <p class="wow slideInUp">
               Apakah anda merasa Sakit kepala disertai dengan mual dan muntah? Silahkan klik option dibawah ini sesuai dengan yang Anda rasakan?
               </p>
@@ -247,7 +260,7 @@
             </div>
 
             <!-- SEMBILAN -->
-            <div class="sembilan">
+              <div class="sembilan">
               <p class="wow slideInUp">
               Apakah anda merasa berat saat bernafas?Silahkan klik option dibawah ini sesuai dengan yang Anda rasakan?
               </p>
@@ -277,7 +290,7 @@
             </div>
 
             <!--SEPULUH-->
-            <div class="sepuluh">
+              <div class="sepuluh">
               <p class="wow slideInUp">
               Apakah anda merasakan mudah lelah disertai dengan sesak nafas dan mual?Silahkan klik option dibawah ini sesuai dengan yang Anda rasakan? 
               </p>

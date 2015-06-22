@@ -1,35 +1,24 @@
 <?php
 	include "header.php";
+	$P1 = array(g02);
+	$P2 = array(g01,g02);
+	$P3 = array(g01,g03);
+	$P4 = array(g04);
+	$P5 = array(g05);
+	$P6 = array(g06);
+	$P7 = array(g07);
+	$P8 = array(g08, g10);
+	$P9 = array(g08,g09);
+	$P10 = array(g07,g10);
+	$getdata = mysql_query("SELECT * FROM gejala");
+
 ?>
 
-  						<p class="wow slideInUp">
-  						Apakah anda merasa Nyeri Sendi, Bengkak, Kaku? Masukan angka yang menggambarkan tingkat sakit yang di derita
-  						</p>
-  						<form>
-  						<div class="input-group  wow zoomIn" data-wow-delay="1s">
-						  <!-- Large button group -->
-							<div class="btn-group">
-							  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-							    Pilihan <span class="caret"></span>
-							  </button>
-							  <ul class="dropdown-menu" role="menu">
-							    <li><a href="#">1</a></li>
-							    <li><a href="#">2</a></li>
-							    <li><a href="#">3</a></li>
-							    <li><a href="#">4</a></li>
-							    <li><a href="#">5</a></li>
-							    <li><a href="#">6</a></li>
-							    <li><a href="#">7</a></li>
-							    <li><a href="#">8</a></li>
-							    <li><a href="#">9</a></li>
-							    <li><a href="#">10</a></li>
-							  </ul>
-							</div>
-						</div>
-						<div class="col-md-4 pull-right">
-						<input type="submit" class="check-button wow rollIn" value="" data-wow-delay="2s">
-						</div>
-						</form>
+
+					
+
+  						
+  					
 <?php
 	include "footer.php";
 ?>
