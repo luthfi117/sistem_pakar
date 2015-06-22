@@ -29,16 +29,13 @@
                 <div class="col-lg-1"></div>
                 <div class="col-lg-10">
                   <select id="first" name="first_select" class="selectpicker show-menu-arrow form-control wow zoomIn" multiple data-max-options="1" data-wow-delay="2s">
-                    <option value="0.1">0.1 (Sangat Tidak)</option>
-                    <option value="0.2">0.2 (Tidak)</option>
-                    <option value="0.3">0.3 (Mungkin Tidak)</option>
-                    <option value="0.4">0.4 (Mungkin Tidak)</option>
-                    <option value="0.5">0.5 (Sedikit)</option>
-                    <option value="0.6">0.6 (Jarang Terasa)</option>
-                    <option value="0.7">0.7 (Kadang Terasa)</option>
-                    <option value="0.8">0.8 (Sering Terasa)</option>
-                    <option value="0.9">0.9 (Sangat Terasa)</option>
-                    <option value="1.0">1.0 (Sangat amat terasa)</option>
+                    <option value="-1.0">Sangat Tidak</option>
+                    <option value="-0.7">Sepertinya Tidak</option>
+                    <option value="-0.4">Mungkin Tidak</option>
+                    <option value="0">Tidak Tahu</option>
+                    <option value="0.4">Kadang Terasa</option>
+                    <option value="0.7">Sering Terasa</option>
+                    <option value="1.0">Sangat Terasa</option>
                   </select>
                 </div>
                 <div class="col-lg-1"></div>
@@ -59,16 +56,13 @@
                 <div class="col-lg-1"></div>
                 <div class="col-lg-10">
                   <select id="two" name="second_select" class="selectpicker show-menu-arrow form-control wow zoomIn" multiple data-max-options="1" data-wow-delay="2s">
-                  <option value="0.1">0.1 (Sangat Tidak)</option>
-                    <option value="0.2">0.2 (Tidak)</option>
-                    <option value="0.3">0.3 (Mungkin Tidak)</option>
-                    <option value="0.4">0.4 (Mungkin Tidak)</option>
-                    <option value="0.5">0.5 (Sedikit)</option>
-                    <option value="0.6">0.6 (Jarang Terasa)</option>
-                    <option value="0.7">0.7 (Kadang Terasa)</option>
-                    <option value="0.8">0.8 (Sering Terasa)</option>
-                    <option value="0.9">0.9 (Sangat Terasa)</option>
-                    <option value="1.0">1.0 (Sangat amat terasa)</option>
+                  <option value="-1.0">Sangat Tidak</option>
+                    <option value="-0.7">Sepertinya Tidak</option>
+                    <option value="-0.4">Mungkin Tidak</option>
+                    <option value="0">Tidak Tahu</option>
+                    <option value="0.4">Kadang Terasa</option>
+                    <option value="0.7">Sering Terasa</option>
+                    <option value="1.0">Sangat Terasa</option>
                   </select>
                 </div>
                 <div class="col-lg-1"></div>
@@ -88,16 +82,13 @@
                 <div class="col-lg-1"></div>
                 <div class="col-lg-10">
                   <select id="third" name="third_select" class="selectpicker show-menu-arrow form-control wow zoomIn" multiple data-max-options="1" data-wow-delay="2s">
-                   <option value="0.1">0.1 (Sangat Tidak)</option>
-                    <option value="0.2">0.2 (Tidak)</option>
-                    <option value="0.3">0.3 (Mungkin Tidak)</option>
-                    <option value="0.4">0.4 (Mungkin Tidak)</option>
-                    <option value="0.5">0.5 (Sedikit)</option>
-                    <option value="0.6">0.6 (Jarang Terasa)</option>
-                    <option value="0.7">0.7 (Kadang Terasa)</option>
-                    <option value="0.8">0.8 (Sering Terasa)</option>
-                    <option value="0.9">0.9 (Sangat Terasa)</option>
-                    <option value="1.0">1.0 (Sangat amat terasa)</option>
+                   <option value="-1.0">Sangat Tidak</option>
+                    <option value="-0.7">Sepertinya Tidak</option>
+                    <option value="-0.4">Mungkin Tidak</option>
+                    <option value="0">Tidak Tahu</option>
+                    <option value="0.4">Kadang Terasa</option>
+                    <option value="0.7">Sering Terasa</option>
+                    <option value="1.0">Sangat Terasa</option>
                   </select>
                 </div>
                 <div class="col-lg-1"></div>
@@ -119,16 +110,13 @@
                 <div class="col-lg-1"></div>
                 <div class="col-lg-10">
                   <select id="fourth" name="fourth_select" class="selectpicker show-menu-arrow form-control wow zoomIn" multiple data-max-options="1" data-wow-delay="2s">
-                    <option value="0.1">0.1 (Sangat Tidak)</option>
-                    <option value="0.2">0.2 (Tidak)</option>
-                    <option value="0.3">0.3 (Mungkin Tidak)</option>
-                    <option value="0.4">0.4 (Mungkin Tidak)</option>
-                    <option value="0.5">0.5 (Sedikit)</option>
-                    <option value="0.6">0.6 (Jarang Terasa)</option>
-                    <option value="0.7">0.7 (Kadang Terasa)</option>
-                    <option value="0.8">0.8 (Sering Terasa)</option>
-                    <option value="0.9">0.9 (Sangat Terasa)</option>
-                    <option value="1.0">1.0 (Sangat amat terasa)</option>
+                    <option value="-1.0">Sangat Tidak</option>
+                    <option value="-0.7">Sepertinya Tidak</option>
+                    <option value="-0.4">Mungkin Tidak</option>
+                    <option value="0">Tidak Tahu</option>
+                    <option value="0.4">Kadang Terasa</option>
+                    <option value="0.7">Sering Terasa</option>
+                    <option value="1.0">Sangat Terasa</option>
                   </select>
                 </div>
                 <div class="col-lg-1"></div>
@@ -150,16 +138,13 @@
                 <div class="col-lg-1"></div>
                 <div class="col-lg-10">
                   <select id="fifth" name="fifth_select" class="selectpicker show-menu-arrow form-control wow zoomIn" multiple data-max-options="1" data-wow-delay="2s">
-                    <option value="0.1">0.1 (Sangat Tidak)</option>
-                    <option value="0.2">0.2 (Tidak)</option>
-                    <option value="0.3">0.3 (Mungkin Tidak)</option>
-                    <option value="0.4">0.4 (Mungkin Tidak)</option>
-                    <option value="0.5">0.5 (Sedikit)</option>
-                    <option value="0.6">0.6 (Jarang Terasa)</option>
-                    <option value="0.7">0.7 (Kadang Terasa)</option>
-                    <option value="0.8">0.8 (Sering Terasa)</option>
-                    <option value="0.9">0.9 (Sangat Terasa)</option>
-                    <option value="1.0">1.0 (Sangat amat terasa)</option>
+                    <option value="-1.0">Sangat Tidak</option>
+                    <option value="-0.7">Sepertinya Tidak</option>
+                    <option value="-0.4">Mungkin Tidak</option>
+                    <option value="0">Tidak Tahu</option>
+                    <option value="0.4">Kadang Terasa</option>
+                    <option value="0.7">Sering Terasa</option>
+                    <option value="1.0">Sangat Terasa</option>
                   </select>
                 </div>
                 <div class="col-lg-1"></div>
@@ -180,16 +165,13 @@
                 <div class="col-lg-1"></div>
                 <div class="col-lg-10">
                   <select id="sixth" name="sixth_select" class="selectpicker show-menu-arrow form-control wow zoomIn" multiple data-max-options="1" data-wow-delay="2s">
-                    <option value="0.1">0.1 (Sangat Tidak)</option>
-                    <option value="0.2">0.2 (Tidak)</option>
-                    <option value="0.3">0.3 (Mungkin Tidak)</option>
-                    <option value="0.4">0.4 (Mungkin Tidak)</option>
-                    <option value="0.5">0.5 (Sedikit)</option>
-                    <option value="0.6">0.6 (Jarang Terasa)</option>
-                    <option value="0.7">0.7 (Kadang Terasa)</option>
-                    <option value="0.8">0.8 (Sering Terasa)</option>
-                    <option value="0.9">0.9 (Sangat Terasa)</option>
-                    <option value="1.0">1.0 (Sangat amat terasa)</option>
+                    <option value="-1.0">Sangat Tidak</option>
+                    <option value="-0.7">Sepertinya Tidak</option>
+                    <option value="-0.4">Mungkin Tidak</option>
+                    <option value="0">Tidak Tahu</option>
+                    <option value="0.4">Kadang Terasa</option>
+                    <option value="0.7">Sering Terasa</option>
+                    <option value="1.0">Sangat Terasa</option>
                   </select>
                 </div>
                 <div class="col-lg-1"></div>
@@ -210,16 +192,13 @@
                 <div class="col-lg-1"></div>
                 <div class="col-lg-10">
                   <select id="seventh" name="seventh_select" class="selectpicker show-menu-arrow form-control wow zoomIn" multiple data-max-options="1" data-wow-delay="2s">
-                    <option value="0.1">0.1 (Sangat Tidak)</option>
-                    <option value="0.2">0.2 (Tidak)</option>
-                    <option value="0.3">0.3 (Mungkin Tidak)</option>
-                    <option value="0.4">0.4 (Mungkin Tidak)</option>
-                    <option value="0.5">0.5 (Sedikit)</option>
-                    <option value="0.6">0.6 (Jarang Terasa)</option>
-                    <option value="0.7">0.7 (Kadang Terasa)</option>
-                    <option value="0.8">0.8 (Sering Terasa)</option>
-                    <option value="0.9">0.9 (Sangat Terasa)</option>
-                    <option value="1.0">1.0 (Sangat amat terasa)</option>
+                    <option value="-1.0">Sangat Tidak</option>
+                    <option value="-0.7">Sepertinya Tidak</option>
+                    <option value="-0.4">Mungkin Tidak</option>
+                    <option value="0">Tidak Tahu</option>
+                    <option value="0.4">Kadang Terasa</option>
+                    <option value="0.7">Sering Terasa</option>
+                    <option value="1.0">Sangat Terasa</option>
                   </select>
                 </div>
                 <div class="col-lg-1"></div>
@@ -240,16 +219,13 @@
                 <div class="col-lg-1"></div>
                 <div class="col-lg-10">
                   <select id="eight" name="eight_select" class="selectpicker show-menu-arrow form-control wow zoomIn" multiple data-max-options="1" data-wow-delay="2s">
-                    <option value="0.1">0.1 (Sangat Tidak)</option>
-                    <option value="0.2">0.2 (Tidak)</option>
-                    <option value="0.3">0.3 (Mungkin Tidak)</option>
-                    <option value="0.4">0.4 (Mungkin Tidak)</option>
-                    <option value="0.5">0.5 (Sedikit)</option>
-                    <option value="0.6">0.6 (Jarang Terasa)</option>
-                    <option value="0.7">0.7 (Kadang Terasa)</option>
-                    <option value="0.8">0.8 (Sering Terasa)</option>
-                    <option value="0.9">0.9 (Sangat Terasa)</option>
-                    <option value="1.0">1.0 (Sangat amat terasa)</option>
+                    <option value="-1.0">Sangat Tidak</option>
+                    <option value="-0.7">Sepertinya Tidak</option>
+                    <option value="-0.4">Mungkin Tidak</option>
+                    <option value="0">Tidak Tahu</option>
+                    <option value="0.4">Kadang Terasa</option>
+                    <option value="0.7">Sering Terasa</option>
+                    <option value="1.0">Sangat Terasa</option>
                   </select>
                 </div>
                 <div class="col-lg-1"></div>
@@ -270,16 +246,13 @@
                 <div class="col-lg-1"></div>
                 <div class="col-lg-10">
                   <select id="nineth" name="nineth_select" class="selectpicker show-menu-arrow form-control wow zoomIn" multiple data-max-options="1" data-wow-delay="2s">
-                    <option value="0.1">0.1 (Sangat Tidak)</option>
-                    <option value="0.2">0.2 (Tidak)</option>
-                    <option value="0.3">0.3 (Mungkin Tidak)</option>
-                    <option value="0.4">0.4 (Mungkin Tidak)</option>
-                    <option value="0.5">0.5 (Sedikit)</option>
-                    <option value="0.6">0.6 (Jarang Terasa)</option>
-                    <option value="0.7">0.7 (Kadang Terasa)</option>
-                    <option value="0.8">0.8 (Sering Terasa)</option>
-                    <option value="0.9">0.9 (Sangat Terasa)</option>
-                    <option value="1.0">1.0 (Sangat amat terasa)</option>
+                    <option value="-1.0">Sangat Tidak</option>
+                    <option value="-0.7">Sepertinya Tidak</option>
+                    <option value="-0.4">Mungkin Tidak</option>
+                    <option value="0">Tidak Tahu</option>
+                    <option value="0.4">Kadang Terasa</option>
+                    <option value="0.7">Sering Terasa</option>
+                    <option value="1.0">Sangat Terasa</option>
                   </select>
                 </div>
                 <div class="col-lg-1"></div>
@@ -300,16 +273,13 @@
                 <div class="col-lg-1"></div>
                 <div class="col-lg-10">
                   <select id="tenth" name="tenth_select" class="selectpicker show-menu-arrow form-control wow zoomIn" multiple data-max-options="1" data-wow-delay="2s">
-                    <option value="0.1">0.1 (Sangat Tidak)</option>
-                    <option value="0.2">0.2 (Tidak)</option>
-                    <option value="0.3">0.3 (Mungkin Tidak)</option>
-                    <option value="0.4">0.4 (Mungkin Tidak)</option>
-                    <option value="0.5">0.5 (Sedikit)</option>
-                    <option value="0.6">0.6 (Jarang Terasa)</option>
-                    <option value="0.7">0.7 (Kadang Terasa)</option>
-                    <option value="0.8">0.8 (Sering Terasa)</option>
-                    <option value="0.9">0.9 (Sangat Terasa)</option>
-                    <option value="1.0">1.0 (Sangat amat terasa)</option>
+                    <option value="-1.0">Sangat Tidak</option>
+                    <option value="-0.7">Sepertinya Tidak</option>
+                    <option value="-0.4">Mungkin Tidak</option>
+                    <option value="0">Tidak Tahu</option>
+                    <option value="0.4">Kadang Terasa</option>
+                    <option value="0.7">Sering Terasa</option>
+                    <option value="1.0">Sangat Terasa</option>
                   </select>
                 </div>
                 <div class="col-lg-1"></div>
