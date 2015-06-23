@@ -13,7 +13,7 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap-select.js"></script>
-        <!--<script src="js/gelembung.js"></script>-->
+        <script src="js/gelembung.js"></script>
         <script src="js/wow.js"></script>
         <script src="js/custom.js"></script>
         <script type="text/javascript">
