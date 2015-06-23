@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 22, 2015 at 04:22 PM
+-- Generation Time: Jun 23, 2015 at 03:51 PM
 -- Server version: 5.6.20
 -- PHP Version: 5.5.15
 
@@ -103,22 +103,32 @@ CREATE TABLE IF NOT EXISTS `user` (
   `g07` float NOT NULL,
   `g08` float NOT NULL,
   `g09` float NOT NULL,
-  `g10` float NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
+  `g10` float NOT NULL,
+  `hasil` varchar(200) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=18 ;
 
 --
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`id`, `nama`, `lokasi`, `g01`, `g02`, `g03`, `g04`, `g05`, `g06`, `g07`, `g08`, `g09`, `g10`) VALUES
-(1, 'Zuhri', 'khilaf', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
-(2, 'brolin', 'ohyeah', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
-(3, 'brolin', 'cathur', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
-(4, 'Brolin', 'CATHUR', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
-(5, 'CATHUR', 'INVALID', 0.2, 0.4, 0.5, 0, 0, 0, 0, 0, 0, 0),
-(6, 'Cathur part 2', 'easaaa', 0.3, 0.5, 0.6, 0, 0, 0, 0, 0, 0, 0),
-(7, 'satu', 'satu_tempat', 0.5, 0.3, 0.6, 0.5, 0.6, 0.7, 0.5, 0.3, 0.6, 0.4),
-(8, 'satu', 'satu_tempat', 0.5, 0.3, 0.6, 0.5, 0.6, 0.7, 0.5, 0.3, 0.6, 0.4);
+INSERT INTO `user` (`id`, `nama`, `lokasi`, `g01`, `g02`, `g03`, `g04`, `g05`, `g06`, `g07`, `g08`, `g09`, `g10`, `hasil`) VALUES
+(1, 'Zuhri', 'khilaf', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ''),
+(2, 'brolin', 'ohyeah', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ''),
+(3, 'brolin', 'cathur', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ''),
+(4, 'Brolin', 'CATHUR', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ''),
+(5, 'CATHUR', 'INVALID', 0.2, 0.4, 0.5, 0, 0, 0, 0, 0, 0, 0, ''),
+(6, 'Cathur part 2', 'easaaa', 0.3, 0.5, 0.6, 0, 0, 0, 0, 0, 0, 0, ''),
+(7, 'satu', 'satu_tempat', 0.5, 0.3, 0.6, 0.5, 0.6, 0.7, 0.5, 0.3, 0.6, 0.4, ''),
+(8, 'satu', 'satu_tempat', 0.5, 0.3, 0.6, 0.5, 0.6, 0.7, 0.5, 0.3, 0.6, 0.4, ''),
+(9, 'Asdasd', 'ksksksks', -0.4, 0, 0.4, 0.4, 0, -0.7, -0.4, -0.4, 0, 0, ''),
+(10, 'Stev Young', 'Semarang', -0.4, -0.7, 0.7, 1, -1, -0.7, -0.4, -0.7, -0.4, -0.7, 'Rematik'),
+(11, 'Sanusi', 'Semarang', -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, 'Malaria'),
+(12, 'Zuhri1', 'Jepara', 1, -0.7, -0.7, -0.7, -1, 0, 0.4, -1, -0.7, -0.4, 'Malaria'),
+(13, 'Zuhri2', 'Jepara', 1, -1, -0.4, -1, -1, -1, -1, -1, -1, -1, 'Malaria'),
+(14, 'Youngky', 'Semarang', 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 'Malaria'),
+(15, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Rematik'),
+(16, 'Sony Tulung', 'Jakarta', -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, 'Malaria'),
+(17, 'Luthfi', 'Pudak Payung', 0, 0, 1, -0.4, 1, 1, 1, -1, -1, 1, 'Jantung Koroner');
 
 --
 -- Indexes for dumped tables
@@ -155,7 +165,7 @@ MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=16;
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-MODIFY `id` int(5) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=9;
+MODIFY `id` int(5) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=18;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
